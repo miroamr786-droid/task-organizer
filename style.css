@@ -153,3 +153,17 @@ button:hover {
         border-bottom: 1px solid var(--border-color);
     }
 }
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px 4px;
+  }
+
+  td:nth-child(4) {
+    background-color: #1e293b;
+    font-size: 12px;
+  }
+}
