@@ -189,3 +189,42 @@ th, td {
     padding: 6px 2px;
   }
 }
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+th, td {
+  padding: 10px 5px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  border: 1px solid #334155;
+  text-align: left;
+}
+
+th {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+tr:nth-child(even) td {
+  background-color: #1e293b;
+}
+
+tr:nth-child(odd) td {
+  background-color: #273447;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+  
+  th, td {
+    padding: 8px 4px;
+  }
+}
